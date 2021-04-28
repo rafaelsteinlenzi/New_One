@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <label for="fname">Jogador1:</label><br>
+        <input type="text" id="Jogador1" name="Jogador1"><br>
+        <label for="lname">Jogador2:</label><br>
+        <input type="text" id="Jogador2" name="Jogador2"><br>
+        <input type="submit" value="Submit">
+      </form>
+    <div id="jogoVelha">
+        <div class="linha">
+            <div class="coluna" id="coluna1"></div>
+            <div class="coluna" id="coluna2"></div>
+            <div class="coluna" id="coluna3"></div>
+        </div>
+        <div class="linha">
+            <div class="coluna" id="coluna4"></div>
+            <div class="coluna" id="coluna5"></div>
+            <div class="coluna" id="coluna6"></div>
+        </div>
+        <div class="linha">
+            <div class="coluna" id="coluna7"></div>
+            <div class="coluna" id="coluna8"></div>
+            <div class="coluna" id="coluna9"></div>
+        </div>
+    </div>
+    <div id="resultado">O jogador xpto venceu</div>
+    <div id="imagem"></div>
+
+    <input type="button" value="O que é o jogo da velha?" id="significado">
+    <div id="ajax">
+        <!--O conteúdo da div vai ser carregado aqui -->
+    </div>
+
+</body>
+</html>
